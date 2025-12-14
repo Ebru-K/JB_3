@@ -26,6 +26,7 @@ npm run dev            # runs client + server concurrently
 - Frontend: http://localhost:5173
 - API: http://localhost:5000/api (health: `/api/health` and `/health`)
 - API tests: import `docs/postman/Job-Portal-API.postman_collection.json`
+- Production start (Render): `npm start` runs `backend/server.js`
 
 ## Environment
 - Backend: `MONGODB_URI`, `JWT_SECRET`, `PORT=5000`, `NODE_ENV`, `CLIENT_URL`, `RENDER_FRONTEND_URL`, optional `MAX_FILE_SIZE`
